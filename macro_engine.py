@@ -26,7 +26,7 @@ end_date = datetime.now().strftime("%Y-%m-%d")
 # MACRO SERIES MAPPING (PUBLIC AND UNRESTRICTED TICKERS)
 # -----------------------------------------------------------------------------
 SERIES_MAP = {
-    "DXY": "DTWEXAFE",          # Standard/Major Currency DXY Equivalent
+    "DXY": "DTWEXAFE08",          # Standard/Major Currency DXY Equivalent
     "10Y_Yield": "DGS10",       # US 10-Year Treasury Yield (Daily)
     "EM_Yield": "EMERBGIN"      # ICE BofA Emerging Markets Liquid Corporate Plus Index Yield
 }
